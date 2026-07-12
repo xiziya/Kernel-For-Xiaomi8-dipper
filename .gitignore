@@ -1,0 +1,18 @@
+# 忽略的编译输出目录
+Result/
+out/
+
+# --- 补充：Linux 内核编译常见的需要忽略的文件（建议保留，保持仓库干净） ---
+*.o
+*.cmd
+.*.cmd
+*.ko
+*.mod.c
+.tmp_versions/
+modules.order
+Module.symvers
+System.map
+vmlinux
+vmlinux.o
+*.gz
+*.dtb
